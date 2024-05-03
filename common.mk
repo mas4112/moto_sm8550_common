@@ -186,6 +186,9 @@ PRODUCT_PACKAGES += \
 # Fingerprint
 PRODUCT_PACKAGES += \
     com.motorola.hardware.biometric.fingerprint@1.0.vendor
+    
+# Enables fingerprint customization    
+TARGET_HAS_UDFPS := true 
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
