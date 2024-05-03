@@ -191,6 +191,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0.vendor
 
+# Exclude unwanted packages from building
+PRODUCT_PACKAGES += \
+    RemovePackages
+
+
 # GPS
 PRODUCT_PACKAGES += \
     android.hardware.gnss-V2-ndk.vendor \
