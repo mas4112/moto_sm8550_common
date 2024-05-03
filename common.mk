@@ -190,6 +190,9 @@ PRODUCT_PACKAGES += \
 # Enables fingerprint customization    
 TARGET_HAS_UDFPS := true 
 
+# Blur effect for QS
+TARGET_ENABLE_BLUR := true
+
 # Gatekeeper
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0.vendor
